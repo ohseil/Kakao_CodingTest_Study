@@ -1,2 +1,5 @@
-﻿  problem4.cpp
+﻿  problem5.cpp
+C:\Users\Seil\source\repos\StudyProject\StudyProject\problem5.cpp(15,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\Seil\source\repos\StudyProject\StudyProject\problem5.cpp(37,40): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\Seil\source\repos\StudyProject\StudyProject\problem5.cpp(47,33): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
   StudyProject.vcxproj -> C:\Users\Seil\source\repos\StudyProject\Debug\StudyProject.exe
