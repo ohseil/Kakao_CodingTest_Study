@@ -3,11 +3,13 @@
 #include "problem3.h"
 #include "problem4.h"
 #include "problem5.h"
+#include "problem6.h"
 
 int main() {
 
 	//KakaoBlind2020::problem3::execute();
-	KakaoBlind2020::problem5::execute();
+	//KakaoBlind2020::problem5::execute();
+	KakaoBlind2020::problem6::execute();
 
 	return 0;
 }

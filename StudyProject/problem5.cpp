@@ -16,7 +16,7 @@ int KakaoBlind2020::problem5::solution(int n, vector<int> weak, vector<int> dist
 
 		vector<int> checkSample;
 
-		// 긴거리 갈수 있는 순으로 친구 i + 1 명 뽑기.
+		// 긴거리 갈 수 있는 순으로 친구 i + 1 명 뽑기.
 		for (int j = 0; j <= i; j++)
 			checkSample.push_back(tempDist[j]);
 

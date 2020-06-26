@@ -39,6 +39,9 @@
     <ClCompile Include="problem5.cpp">
       <Filter>소스 파일\KakaoBlind2020</Filter>
     </ClCompile>
+    <ClCompile Include="problem6.cpp">
+      <Filter>소스 파일\KakaoBlind2020</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="problem4.h">
@@ -54,6 +57,9 @@
       <Filter>헤더 파일\KakaoBlind2020</Filter>
     </ClInclude>
     <ClInclude Include="problem5.h">
+      <Filter>헤더 파일\KakaoBlind2020</Filter>
+    </ClInclude>
+    <ClInclude Include="problem6.h">
       <Filter>헤더 파일\KakaoBlind2020</Filter>
     </ClInclude>
   </ItemGroup>
