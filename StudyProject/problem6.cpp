@@ -282,72 +282,6 @@ int KakaoBlind2020::problem6::solution(vector<vector<int>> board) {
     return answer;
 }
 
-struct pos {
-	int y[2], x[2];
-	int dir[2];
-};
-int n;
-int dy[] = { 0,1,0,-1 };  // -> 0 / 아래 1 / <- 2 / 위 3
-int dx[] = { 1,0,-1,0 };
-bool chk[101][101][4];
-
-bool range(int y1, int x1, int y2, int x2, int dir1, int dir2, vector<vector<int>>& mp) {
-	return !(y1 < 0 || y1 >= n || x1 < 0 || x1 >= n || y2 < 0 || y2 >= n || x2 < 0 || x2 >= n || mp[y1][x1] || mp[y2][x2]);
-}
-
-int solution2(vector<vector<int>> mp) {
-	n = mp.size();
-	queue<pos> q;
-	// -> 0 / 아래 1 / <- 2 / 위 3
-	chk[0][0][0] = chk[0][1][2] = true;
-	q.push({ 0,0,0,1,0,2 });
-	int timer = 0;
-	int num = 0;
-	while (!q.empty()) {
-		int l = q.size();
-		while (l--) {
-			cout << q.size() << " ";
-			pos f = q.front();
-			q.pop();
-			cout << "(" << f.y[0] + 1 << "," << f.x[0] + 1 << ")(" << f.y[1] + 1 << "," << f.x[1] + 1 << ") ";
-			if ((f.y[0] == n - 1 && f.x[0] == n - 1) || (f.y[1] == n - 1 && f.x[1] == n - 1)) return timer;
-
-			for (int dir = 0; dir < 4; dir++) {
-				int ny1 = f.y[0] + dy[dir], nx1 = f.x[0] + dx[dir];
-				int ny2 = f.y[1] + dy[dir], nx2 = f.x[1] + dx[dir];
-				int dir1 = f.dir[0], dir2 = f.dir[1];
-
-				if (!range(ny1, nx1, ny2, nx2, dir1, dir2, mp) || chk[ny1][nx1][dir1] || chk[ny2][nx2][dir2]) continue;
-				chk[ny1][nx1][dir1] = chk[ny2][nx2][dir2] = true;
-				q.push({ ny1, ny2, nx1, nx2, dir1, dir2 });
-				cout << "in:[" << ny1 + 1 << "," << nx1 + 1 << "][" << ny2 + 1 << "," << nx2 + 1 << "] ";
-			}
-
-			for (int i = -1; i <= 1; i++) {
-				if (i == 0) continue;
-				for (int j = 0; j < 2; j++) {
-					int y = f.y[j], x = f.x[j];
-
-					int dir = (f.dir[j] + i + 4) % 4;
-					int prev_dir = (dir - i + 4) % 4;
-					int oppo_dir = (dir + 2) % 4;
-
-					int ny2 = y + dy[dir], nx2 = x + dx[dir];
-					int ny3 = y + dy[dir] + dy[prev_dir], nx3 = x + dx[dir] + dx[prev_dir];
-
-					if (!range(ny2, nx2, ny3, nx3, dir, oppo_dir, mp) || chk[y][x][dir] || chk[ny2][nx2][oppo_dir]) continue;
-					chk[y][x][dir] = chk[ny2][nx2][oppo_dir] = true;
-					q.push({ y, ny2, x, nx2, dir, oppo_dir });
-
-					cout << "in:[" << y + 1 << "," << x + 1 << "][" << ny2 + 1 << "," << nx2 + 1 << "] ";
-				}
-			}
-		}
-		timer += 1;
-	}
-	return -1;
-}
-
 void KakaoBlind2020::problem6::execute() {
 
     vector<vector<int>> v;
@@ -368,8 +302,5 @@ void KakaoBlind2020::problem6::execute() {
     v.push_back(temp);
     
     cout << solution(v) << endl << endl << endl;
-
-	cout << solution2(v) << endl;
-
     
 }
