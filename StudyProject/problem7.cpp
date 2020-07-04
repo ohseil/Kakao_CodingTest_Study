@@ -187,7 +187,6 @@ void KakaoBlind2020::problem7::execute() {
     q.push_back("fro???");
     q.push_back("pro?");
 
-
     vector<int> aw = solution(w, q);
  
     for (auto a : aw)

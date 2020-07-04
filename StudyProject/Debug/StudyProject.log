@@ -1,4 +1,22 @@
-﻿  problem7.cpp
+﻿  main.cpp
+  problem1.cpp
+C:\Users\Seil\source\repos\StudyProject\StudyProject\problem1.cpp(81,20): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\Seil\source\repos\StudyProject\StudyProject\problem1.cpp(90,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\Seil\source\repos\StudyProject\StudyProject\problem1.cpp(94,10): warning C4018: '>': signed 또는 unsigned가 일치하지 않습니다.
+  problem2.cpp
+C:\Users\Seil\source\repos\StudyProject\StudyProject\problem2.cpp(29,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\Seil\source\repos\StudyProject\StudyProject\problem2.cpp(48,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\Seil\source\repos\StudyProject\StudyProject\problem2.cpp(56,26): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  problem3.cpp
+  problem4.cpp
+  problem5.cpp
+C:\Users\Seil\source\repos\StudyProject\StudyProject\problem5.cpp(15,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\Seil\source\repos\StudyProject\StudyProject\problem5.cpp(29,40): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\Seil\source\repos\StudyProject\StudyProject\problem5.cpp(39,33): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  problem6.cpp
+  problem7.cpp
 C:\Users\Seil\source\repos\StudyProject\StudyProject\problem7.cpp(27,27): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  코드를 생성하고 있습니다...
 C:\Users\Seil\source\repos\StudyProject\StudyProject\problem7.cpp(78): warning C4715: 'SI_Trie::findNum': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  LINK : C:\Users\Seil\source\repos\StudyProject\Debug\StudyProject.exe을(를) 찾을 수 없거나 마지막 증분 링크에 의해 빌드되지 않았습니다. 전체 링크를 수행하고 있습니다.
   StudyProject.vcxproj -> C:\Users\Seil\source\repos\StudyProject\Debug\StudyProject.exe
