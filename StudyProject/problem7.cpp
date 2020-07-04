@@ -10,7 +10,6 @@ public:
 	public:
 		char data;
 		vector<Node*> nextList;
-        bool isString = false;
         map<int, int> m;
 
 		Node(char ch) { data = ch; }
@@ -28,7 +27,8 @@ public:
         for (int i = 0; i < str.length(); i++) {
 
 			bool isData = false;
-			for (Node* n : node->nextList) {
+
+            for (Node* n : node->nextList) {
 				if (n->data == str[i]) {
 					node = n;
                     node->m[length] += 1;
@@ -123,7 +123,6 @@ vector<int> solution(vector<string> words, vector<string> queries) {
     
     vector<int> answer;
 
-    
     vector<string> rwords = words;
     for (int i = 0; i < rwords.size(); i++) reverse(rwords[i].begin(), rwords[i].end());
     
@@ -188,9 +187,9 @@ void KakaoBlind2020::problem7::execute() {
     q.push_back("fro???");
     q.push_back("pro?");
 
+
     vector<int> aw = solution(w, q);
  
     for (auto a : aw)
         cout << a << " ";
-    cout << endl;
 }
