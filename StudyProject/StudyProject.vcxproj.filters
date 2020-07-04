@@ -19,6 +19,12 @@
     <Filter Include="헤더 파일\KakaoBlind2020">
       <UniqueIdentifier>{3a188081-7153-4a80-a744-a8ff3792acba}</UniqueIdentifier>
     </Filter>
+    <Filter Include="헤더 파일\KakaoBlind2019">
+      <UniqueIdentifier>{e6b46e85-9412-4b1c-b3e4-edac365eca83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\KakaoBlind2019">
+      <UniqueIdentifier>{485cbafe-d815-46f2-9b78-fba187ca87f0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -45,6 +51,9 @@
     <ClCompile Include="problem7.cpp">
       <Filter>소스 파일\KakaoBlind2020</Filter>
     </ClCompile>
+    <ClCompile Include="problem8.cpp">
+      <Filter>소스 파일\KakaoBlind2019</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="problem4.h">
@@ -67,6 +76,15 @@
     </ClInclude>
     <ClInclude Include="problem7.h">
       <Filter>헤더 파일\KakaoBlind2020</Filter>
+    </ClInclude>
+    <ClInclude Include="KakaoBlind2020.h">
+      <Filter>헤더 파일\KakaoBlind2020</Filter>
+    </ClInclude>
+    <ClInclude Include="KakaoBlind2019.h">
+      <Filter>헤더 파일\KakaoBlind2019</Filter>
+    </ClInclude>
+    <ClInclude Include="problem8.h">
+      <Filter>헤더 파일\KakaoBlind2019</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
