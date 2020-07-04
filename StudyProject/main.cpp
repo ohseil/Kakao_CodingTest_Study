@@ -3,11 +3,7 @@
 
 int main() {
 
-	//KakaoBlind2020::problem3::execute();
-	//KakaoBlind2020::problem5::execute();
-	//KakaoBlind2020::problem6::execute();
-	KakaoBlind2020::problem7::execute();
-	
+	KakaoBlind2019::problem8::execute();
 	
 	return 0;
 }
