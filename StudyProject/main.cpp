@@ -3,7 +3,7 @@
 
 int main() {
 
-	KakaoBlind2019::problem10::execute();
+	KakaoBlind2019::problem11::execute();
 	
 	return 0;
 }
