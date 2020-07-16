@@ -9,7 +9,6 @@ namespace KakaoBlind2020 {
 
 	namespace problem1 {
 
-		int solution(string s);
 		void execute();
 	}
 }

@@ -10,7 +10,6 @@ namespace KakaoBlind2020 {
 
 	namespace problem4 {
 
-		vector<vector<int>> solution(int n, vector<vector<int>> build_frame);
 		void execute();
 	}
 }

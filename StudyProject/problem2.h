@@ -10,7 +10,6 @@ namespace KakaoBlind2020 {
 
 	namespace problem2 {
 
-		string solution(string str);
 		void execute();
 	}
 }

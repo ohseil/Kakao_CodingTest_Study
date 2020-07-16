@@ -12,7 +12,6 @@ namespace KakaoBlind2020 {
 
 	namespace problem6 {
 
-		int solution(vector<vector<int>> board);
 		void execute();
 	}
 }
