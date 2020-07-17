@@ -19,13 +19,16 @@ namespace KakaoBlind2019 {
 				// 3. <a herf의 수 (외부링크 수)
 				// 4. <a herf의 url (링크 점수를 해당 페이지들에게 업데이트 하기 위함.)
 
+				// url 구하기 ==============================================
 				string url;
 
-				int strLength = page.length();
-				/*for (int i = 0; i < strLength; i++) {
+				string metaStr = page.substr(page.find("<meta property="));
+				int urlStartIndex = metaStr.find("https://");
+				int urlEndIndex = metaStr.substr(metaStr.find("https://")).find("\"");
+				url = metaStr.substr(urlStartIndex, urlEndIndex);
+				cout << urlStartIndex << " " << urlEndIndex << " " << url << endl;
+				// ===========================================================
 
-					if ()
-				}*/
 
 
 			}
@@ -35,16 +38,14 @@ namespace KakaoBlind2019 {
 
 		void execute() {
 
-			string str = "<head>\n  <meta charset=\"utf-8\">\n  <meta property=\"og:url\" content=\"https://a.com\"/>\n</head>";
+			string word = "blind";
+			vector<string> pages;
 
-			int urlStartIndex = str.substr(str.find("<meta property=")).find("https://");
-			int urlEndIndex = str.substr(str.substr(str.find("<meta property=")).find("https://")).find("\"");
-			string s = str.substr(str.find("<meta property=")).substr(urlStartIndex, urlEndIndex);
-			cout << urlStartIndex << endl << urlEndIndex << endl << s << endl;
-
-			string str2 = "https://a.com\"dfdf";
-
-			cout << endl << str2.find("\"") << endl;
+			pages.push_back("<html lang=\"ko\" xml:lang=\"ko\" xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n  <meta charset=\"utf-8\">\n  <meta property=\"og:url\" content=\"https://a.com\"/>\n</head>  \n<body>\nBlind Lorem Blind ipsum dolor Blind test sit amet, consectetur adipiscing elit. \n<a href=\"https://b.com\"> Link to b </a>\n</body>\n</html>");
+			pages.push_back("<html lang=\"ko\" xml:lang=\"ko\" xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n  <meta charset=\"utf-8\">\n  <meta property=\"og:url\" content=\"https://b.com\"/>\n</head>  \n<body>\nSuspendisse potenti. Vivamus venenatis tellus non turpis bibendum, \n<a href=\"https://a.com\"> Link to a </a>\nblind sed congue urna varius. Suspendisse feugiat nisl ligula, quis malesuada felis hendrerit ut.\n<a href=\"https://c.com\"> Link to c </a>\n</body>\n</html>");
+			pages.push_back("<html lang=\"ko\" xml:lang=\"ko\" xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n  <meta charset=\"utf-8\">\n  <meta property=\"og:url\" content=\"https://c.com\"/>\n</head>  \n<body>\nUt condimentum urna at felis sodales rutrum. Sed dapibus cursus diam, non interdum nulla tempor nec. Phasellus rutrum enim at orci consectetu blind\n<a href=\"https://a.com\"> Link to a </a>\n</body>\n</html>");
+		
+			solution(word, pages);
 		}
 	}
 }
