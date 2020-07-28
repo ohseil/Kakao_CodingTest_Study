@@ -1,10 +1,2 @@
 ﻿  main.cpp
-  problem16.cpp
-C:\Users\Seil\source\repos\StudyProject\StudyProject\problem16.cpp(24,31): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-C:\Users\Seil\source\repos\StudyProject\StudyProject\problem16.cpp(26,31): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-C:\Users\Seil\source\repos\StudyProject\StudyProject\problem16.cpp(29,31): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-C:\Users\Seil\source\repos\StudyProject\StudyProject\problem16.cpp(40,31): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-C:\Users\Seil\source\repos\StudyProject\StudyProject\problem16.cpp(57,35): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-C:\Users\Seil\source\repos\StudyProject\StudyProject\problem16.cpp(58,39): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-  코드를 생성하고 있습니다...
   StudyProject.vcxproj -> C:\Users\Seil\source\repos\StudyProject\Debug\StudyProject.exe
