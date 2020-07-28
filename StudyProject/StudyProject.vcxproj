@@ -147,6 +147,7 @@
     <ClCompile Include="problem13.cpp" />
     <ClCompile Include="problem14.cpp" />
     <ClCompile Include="problem15.cpp" />
+    <ClCompile Include="problem16.cpp" />
     <ClCompile Include="problem2.cpp" />
     <ClCompile Include="problem3.cpp" />
     <ClCompile Include="problem4.cpp" />
@@ -167,6 +168,7 @@
     <ClInclude Include="problem13.h" />
     <ClInclude Include="problem14.h" />
     <ClInclude Include="problem15.h" />
+    <ClInclude Include="problem16.h" />
     <ClInclude Include="problem2.h" />
     <ClInclude Include="problem3.h" />
     <ClInclude Include="problem4.h" />

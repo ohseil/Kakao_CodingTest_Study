@@ -81,6 +81,9 @@
     <ClCompile Include="problem15.cpp">
       <Filter>소스 파일\KakaoBlind2018</Filter>
     </ClCompile>
+    <ClCompile Include="problem16.cpp">
+      <Filter>소스 파일\KakaoBlind2018</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="problem4.h">
@@ -135,6 +138,9 @@
       <Filter>헤더 파일\KakaoBlind2018</Filter>
     </ClInclude>
     <ClInclude Include="problem15.h">
+      <Filter>헤더 파일\KakaoBlind2018</Filter>
+    </ClInclude>
+    <ClInclude Include="problem16.h">
       <Filter>헤더 파일\KakaoBlind2018</Filter>
     </ClInclude>
   </ItemGroup>
