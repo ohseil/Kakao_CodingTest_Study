@@ -1,4 +1,3 @@
-﻿  main.cpp
-  problem15.cpp
-  코드를 생성하고 있습니다...
-  StudyProject.vcxproj -> C:\Users\Seil\source\repos\StudyProject\Debug\StudyProject.exe
+﻿  problem15.cpp
+C:\Users\sioh\source\repos\Kakao_CodingTest_Study\StudyProject\problem15.cpp(79): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  StudyProject.vcxproj -> C:\Users\sioh\source\repos\Kakao_CodingTest_Study\Debug\StudyProject.exe
