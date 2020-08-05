@@ -81,6 +81,27 @@
     <ClCompile Include="problem15.cpp">
       <Filter>소스 파일\KakaoBlind2018</Filter>
     </ClCompile>
+    <ClCompile Include="problem16.cpp">
+      <Filter>소스 파일\KakaoBlind2018</Filter>
+    </ClCompile>
+    <ClCompile Include="problem17.cpp">
+      <Filter>소스 파일\KakaoBlind2018</Filter>
+    </ClCompile>
+    <ClCompile Include="problem18.cpp">
+      <Filter>소스 파일\KakaoBlind2018</Filter>
+    </ClCompile>
+    <ClCompile Include="problem19.cpp">
+      <Filter>소스 파일\KakaoBlind2018</Filter>
+    </ClCompile>
+    <ClCompile Include="problem20.cpp">
+      <Filter>소스 파일\KakaoBlind2018</Filter>
+    </ClCompile>
+    <ClCompile Include="problem21.cpp">
+      <Filter>소스 파일\KakaoBlind2018</Filter>
+    </ClCompile>
+    <ClCompile Include="problem22.cpp">
+      <Filter>소스 파일\KakaoBlind2018</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="problem4.h">
@@ -135,6 +156,27 @@
       <Filter>헤더 파일\KakaoBlind2018</Filter>
     </ClInclude>
     <ClInclude Include="problem15.h">
+      <Filter>헤더 파일\KakaoBlind2018</Filter>
+    </ClInclude>
+    <ClInclude Include="problem16.h">
+      <Filter>헤더 파일\KakaoBlind2018</Filter>
+    </ClInclude>
+    <ClInclude Include="problem17.h">
+      <Filter>헤더 파일\KakaoBlind2018</Filter>
+    </ClInclude>
+    <ClInclude Include="problem18.h">
+      <Filter>헤더 파일\KakaoBlind2018</Filter>
+    </ClInclude>
+    <ClInclude Include="problem19.h">
+      <Filter>헤더 파일\KakaoBlind2018</Filter>
+    </ClInclude>
+    <ClInclude Include="problem20.h">
+      <Filter>헤더 파일\KakaoBlind2018</Filter>
+    </ClInclude>
+    <ClInclude Include="problem21.h">
+      <Filter>헤더 파일\KakaoBlind2018</Filter>
+    </ClInclude>
+    <ClInclude Include="problem22.h">
       <Filter>헤더 파일\KakaoBlind2018</Filter>
     </ClInclude>
   </ItemGroup>

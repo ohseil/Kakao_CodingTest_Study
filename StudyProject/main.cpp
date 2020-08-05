@@ -4,7 +4,7 @@
 
 int main() {
 
-	KakaoBlind2018::problem15::execute();
+	KakaoBlind2018::problem22::execute();
 	
 	return 0;
 }

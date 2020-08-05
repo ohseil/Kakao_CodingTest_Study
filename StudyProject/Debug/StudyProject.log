@@ -1,3 +1,5 @@
-﻿  problem15.cpp
-C:\Users\sioh\source\repos\Kakao_CodingTest_Study\StudyProject\problem15.cpp(79): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+﻿  problem22.cpp
+C:\Users\sioh\source\repos\Kakao_CodingTest_Study\StudyProject\problem22.cpp(30): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\sioh\source\repos\Kakao_CodingTest_Study\StudyProject\problem22.cpp(61): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\sioh\source\repos\Kakao_CodingTest_Study\StudyProject\problem22.cpp(96): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
   StudyProject.vcxproj -> C:\Users\sioh\source\repos\Kakao_CodingTest_Study\Debug\StudyProject.exe
