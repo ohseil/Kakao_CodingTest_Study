@@ -10,3 +10,4 @@
 #include "problem23.h"
 #include "problem24.h"
 #include "problem25.h"
+#include "problem26.h"
