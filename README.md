@@ -36,4 +36,4 @@ Problem 22 : 방금그곡
 Problem 23 : 압축
 Problem 24 : 자동완성
 Problem 25 : 파일명 정렬
-Problem 26 : n
+Problem 26 : n진수 
