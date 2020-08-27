@@ -1,6 +1,7 @@
 # Kakao_CodingTest_Study
 Study kakao coding test in https://programmers.co.kr
 
+
 < 2020 Kakao Blind Coding Test >
 
 Problem 1 : 문자열 압축
@@ -15,6 +16,7 @@ Problem 7 : 가사 검색
 < 2019 Kakao Blind Coding Test >
 
 Problem 8 : 오픈채팅방
+
 Problem 9 : 실패율
 Problem 10 : 후보키
 Problem 11 : 무지의 먹방 라이브
