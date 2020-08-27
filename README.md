@@ -16,7 +16,6 @@ Problem 7 : 가사 검색
 < 2019 Kakao Blind Coding Test >
 
 Problem 8 : 오픈채팅방
-
 Problem 9 : 실패율
 Problem 10 : 후보키
 Problem 11 : 무지의 먹방 라이브
