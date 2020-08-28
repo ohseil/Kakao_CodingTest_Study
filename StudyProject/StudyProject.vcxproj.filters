@@ -123,6 +123,9 @@
     <ClCompile Include="problem27.cpp">
       <Filter>소스 파일\KakaoWinterIntern2019</Filter>
     </ClCompile>
+    <ClCompile Include="problem28.cpp">
+      <Filter>소스 파일\KakaoWinterIntern2019</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="problem4.h">
@@ -216,6 +219,9 @@
       <Filter>헤더 파일\KakaoWinterIntern2019</Filter>
     </ClInclude>
     <ClInclude Include="problem27.h">
+      <Filter>헤더 파일\KakaoWinterIntern2019</Filter>
+    </ClInclude>
+    <ClInclude Include="problem28.h">
       <Filter>헤더 파일\KakaoWinterIntern2019</Filter>
     </ClInclude>
   </ItemGroup>

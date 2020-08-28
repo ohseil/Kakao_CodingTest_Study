@@ -1,4 +1,3 @@
-﻿  main.cpp
-  problem27.cpp
-  코드를 생성하고 있습니다...
+﻿  problem28.cpp
+C:\Users\Seil\source\repos\StudyProject\StudyProject\problem28.cpp(22,22): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
   StudyProject.vcxproj -> C:\Users\Seil\source\repos\StudyProject\Debug\StudyProject.exe
