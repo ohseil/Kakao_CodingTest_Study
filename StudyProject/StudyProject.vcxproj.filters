@@ -31,6 +31,12 @@
     <Filter Include="헤더 파일\KakaoBlind2018">
       <UniqueIdentifier>{d9dfc775-51fd-4fbe-bdad-c4fb6aa31487}</UniqueIdentifier>
     </Filter>
+    <Filter Include="헤더 파일\KakaoWinterIntern2019">
+      <UniqueIdentifier>{bd3eec68-43ca-4f1a-9405-b4f8ac8c0f86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\KakaoWinterIntern2019">
+      <UniqueIdentifier>{80b559af-2387-4b22-8f56-e8d0af1031b0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -113,6 +119,9 @@
     </ClCompile>
     <ClCompile Include="problem26.cpp">
       <Filter>소스 파일\KakaoBlind2018</Filter>
+    </ClCompile>
+    <ClCompile Include="problem27.cpp">
+      <Filter>소스 파일\KakaoWinterIntern2019</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -202,6 +211,12 @@
     </ClInclude>
     <ClInclude Include="problem26.h">
       <Filter>헤더 파일\KakaoBlind2018</Filter>
+    </ClInclude>
+    <ClInclude Include="KakaoWinterIntern2019.h">
+      <Filter>헤더 파일\KakaoWinterIntern2019</Filter>
+    </ClInclude>
+    <ClInclude Include="problem27.h">
+      <Filter>헤더 파일\KakaoWinterIntern2019</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
