@@ -165,6 +165,7 @@
     <ClCompile Include="problem3.cpp" />
     <ClCompile Include="problem30.cpp" />
     <ClCompile Include="problem31.cpp" />
+    <ClCompile Include="problem32.cpp" />
     <ClCompile Include="problem4.cpp" />
     <ClCompile Include="problem5.cpp" />
     <ClCompile Include="problem6.cpp" />
@@ -176,6 +177,7 @@
     <ClInclude Include="KakaoBlind2018.h" />
     <ClInclude Include="KakaoBlind2019.h" />
     <ClInclude Include="KakaoBlind2020.h" />
+    <ClInclude Include="KakaoIntern2020.h" />
     <ClInclude Include="KakaoWinterIntern2019.h" />
     <ClInclude Include="problem1.h" />
     <ClInclude Include="problem10.h" />
@@ -202,6 +204,7 @@
     <ClInclude Include="problem3.h" />
     <ClInclude Include="problem30.h" />
     <ClInclude Include="problem31.h" />
+    <ClInclude Include="problem32.h" />
     <ClInclude Include="problem4.h" />
     <ClInclude Include="problem5.h" />
     <ClInclude Include="problem6.h" />

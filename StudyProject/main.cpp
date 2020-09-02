@@ -2,10 +2,11 @@
 #include "KakaoBlind2019.h"
 #include "KakaoBlind2018.h"
 #include "KakaoWinterIntern2019.h"
+#include "KakaoIntern2020.h"
 
 int main() {
 
-	KakaoWinterIntern2019::problem31::execute();
+	KakaoIntern2020::problem32::execute();
 	
 	return 0;
 }
