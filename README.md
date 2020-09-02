@@ -1,8 +1,9 @@
-# Kakao_CodingTest_Study
-Study kakao coding test in https://programmers.co.kr
-----------------------------------------------------
-
-## < 2020 Kakao Blind Coding Test >   
+# Kakao_CodingTest_Study   
+   
+### Study kakao coding test in https://programmers.co.kr   
+   
+   
+### < 2020 Kakao Blind Coding Test >   
 
 Problem 1 : 문자열 압축   
 Problem 2 : 괄호 변환   
