@@ -1,6 +1,6 @@
 # Kakao_CodingTest_Study
 Study kakao coding test in https://programmers.co.kr
-====================================================
+----------------------------------------------------
 
 ## < 2020 Kakao Blind Coding Test >   
 
