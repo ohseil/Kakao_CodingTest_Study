@@ -3,8 +3,7 @@
 ### Study kakao coding test in https://programmers.co.kr   
    
    
-#### < 2020 Kakao Blind Coding Test >   
-
+####< 2020 Kakao Blind Coding Test >   
    Problem 1 : 문자열 압축   
    Problem 2 : 괄호 변환   
    Problem 3 : 자물쇠와 열쇠   
@@ -14,7 +13,7 @@
    Problem 7 : 가사 검색   
    
    
-< 2019 Kakao Blind Coding Test >
+####< 2019 Kakao Blind Coding Test >   
 
 Problem 8 : 오픈채팅방
 Problem 9 : 실패율
