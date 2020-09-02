@@ -6,7 +6,7 @@
 
 int main() {
 
-	KakaoIntern2020::problem32::execute();
+	KakaoIntern2020::problem33::execute();
 	
 	return 0;
 }
